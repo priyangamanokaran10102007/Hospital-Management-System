@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Hospital Management System</h1>
+
+    <input type="text" id="patientName" placeholder="Patient Name">
+
+    <input type="number" id="patientAge" placeholder="Age">
+
+    <input type="text" id="disease" placeholder="Disease">
+
+    <button onclick="addPatient()">
+        Add Patient
+    </button>
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+
+                <th>Name</th>
+
+                <th>Age</th>
+
+                <th>Disease</th>
+
+                <th>Action</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="patientTable">
+
+        </tbody>
+
+    </table>
+
+    <h2>Total Patients :
+        <span id="totalPatients">0</span>
+    </h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
