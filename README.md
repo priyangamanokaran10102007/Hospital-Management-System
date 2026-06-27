@@ -2,11 +2,11 @@
 
 ## Intern Details
 
-Full Name:
+Full Name:PRIYANGA M
 
-Intern ID:
+Intern ID:CITS5214
 
-No. of Weeks:
+No. of Weeks:4 WEEKS
 
 ## Project Name
 
